@@ -53,12 +53,8 @@ text-align: left;
 float: left;
 margin: -90px 0px 60px 30px;
 }
-.descripcion{
-    
-}
-.imagenDescripcion{
-    
-}
+
+
 .logo3{
     position:absolute;
     width:400px;
@@ -83,7 +79,7 @@ margin: -90px 0px 60px 30px;
 }
 
 div.indice{
-    height: 400px;
+    height: 25%;
     border: 1px solid black;
     display: flex;
     flex-direction: row;
@@ -96,8 +92,8 @@ div.indice .itemsindice{
     font-size: 250%;
     font-family: 'New Tegomin', serif;
     list-style: none;
-    height: 120px;
-    width: 400px;
+    height: 20%;
+    width: 30%;
     background-color: rgb(225, 225, 98);
     color: rgb(0, 0, 0);
     text-align: center;
