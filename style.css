@@ -105,9 +105,12 @@ div.indice .itemsindice{
     margin: 20px;
     margin-bottom: 20px;  
 }
-.imagenes2{
-    
-}
+
 .imagenesrecetas{
     background-color: rgb(244, 244, 150);
+    width: 30%;
+}
+
+.imagenes2{
+    width: 100%;
 }
