@@ -57,33 +57,29 @@ margin: -90px 0px 60px 30px;
     
 }
 .imagenDescripcion{
-    margin-left: -20px;
-    -webkit-filter: brightness(50%);
-    filter: brightness(50%);
-    position:absolute;
+    
 }
 .logo3{
     position:absolute;
-    width:600px;
+    width:400px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 4%;
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 1;
+    
 }
 .textocenter{
     font-size: 180%;
     color: white;
-    position:absolute;
     margin-left: auto;
     margin-right: auto;
     margin-top: 350px;
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 1;
+    
 }
 
 div.indice{
@@ -94,8 +90,6 @@ div.indice{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    
-    
 }
 
 div.indice .itemsindice{
