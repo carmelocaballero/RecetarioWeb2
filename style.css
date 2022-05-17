@@ -1,3 +1,7 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
 .encabezado1{
     background-color: black;
     margin: -20px -30px 0px -20px;
@@ -53,12 +57,13 @@ text-align: left;
 float: left;
 margin: -90px 0px 60px 30px;
 }
-.descripcion{
-    
+
+div.descripcion{
+    background-image: "./images/cocina1.jpg";
+    width: 100%;
 }
-.imagenDescripcion{
-    
-}
+
+
 .logo3{
     position:absolute;
     width:400px;
