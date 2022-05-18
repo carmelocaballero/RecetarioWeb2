@@ -102,7 +102,7 @@ div.receta {
 
 .imagenesrecetas {
   background-color: rgb(244, 244, 150);
-  width: 30%
+  width: 30%;
   display: flex;
   flex-direction: column;
 }
@@ -118,3 +118,83 @@ div.receta {
   height: 400px;
   
 }
+.iniciohorizontal{
+  list-style:none;
+  display:flex;
+  justify-content: space-around;
+}
+.iniciohorizontal > li {
+  display: block;
+  padding: 15px, 20px;
+  color: rgb(0, 0, 0);
+  text-decoration:none;
+}
+.iniciohorizontal > li:hover{
+background-color: rgb(185, 185, 185);
+opacity:90%;
+}
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style:none;
+  width: 200px;
+  background-color: rgba(240, 234, 71, 0.832);
+}
+.iniciohorizontal li:hover .menu-vertical{
+  display: block;
+}
+.menu-vertical li:hover{
+  background-color:rgb(164, 164, 164)
+}
+.menu-vertical li a{
+  display: block;
+  color:rgb(0, 0, 0);
+ font-size: 15px;
+  text-decoration:none;
+  text-align: left;
+  text-align: justify;
+}
+
+.iniciohorizontal li:hover .ingredientes-barra{
+  display: block;
+}
+.ingredientes-barra{
+  position: absolute;
+  display: none;
+  list-style:none;
+  width: 200px;
+  background-color: rgba(240, 234, 71, 0.832);
+}
+.ingredientes-barra li:hover{
+  background-color:rgb(164, 164, 164)
+}
+.ingredientes-barra li {
+  display: block;
+  color:rgb(0, 0, 0);
+ font-size: 15px;
+  text-decoration:none;
+  text-align: left;
+  text-align: justify;
+}
+.iniciohorizontal li:hover .autores{
+  display: block;
+}
+.autores{
+  position: absolute;
+  display: none;
+  list-style:none;
+  width: 200px;
+  background-color: rgba(240, 234, 71, 0.832);
+}
+.autores li:hover{
+  background-color:rgb(164, 164, 164)
+}
+.autores li {
+  display: block;
+  color:rgb(0, 0, 0);
+ font-size: 15px;
+  text-decoration:none;
+  text-align: left;
+  text-align: justify;
+}
+
