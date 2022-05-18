@@ -100,24 +100,25 @@ div.receta {
   flex-direction: row;
 }
 
-.imagenesrecetas {
-  background-color: rgb(244, 244, 150);
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-}
 
 .imagenesrecetas .tituloReceta{
-  height: 150px;
   font-family: new Tegomin;
   font-size: 30px;
   text-align: center;
+  align-self: flex-start;
 }
 .imagenesrecetas .imagenes2 {
-  width: 100%;
+  width: 500px;
   height: 400px;
-  
+  align-self: flex-end
 }
+
+.contenido{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+
 .iniciohorizontal{
   list-style:none;
   display:flex;
