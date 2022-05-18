@@ -207,14 +207,15 @@ opacity:90%;
 
 .backgroundimage{
   background-image: url(./images/cocina1.jpg);
-  height: auto;
+  object-fit: cover;
   height: 400px;
-  background-repeat: no-repeat;
+  width: 100%
 
 }
 .imagenfondo2{
   display: block;
   position: relative;
+  margin-left: 10%;
   left:30%;
   top: 30%;
 }
