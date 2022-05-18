@@ -1,3 +1,8 @@
+.body{
+  background-image: url(./images/Logo.png);
+  background-repeat: repeat;
+}
+
 .encabezado1 {
   background-color: black;
   margin: -20px -30px 0px -20px;
@@ -57,6 +62,7 @@ div.indice {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-image: url(./images/cocina1.jpg);
 }
 
 div.indice .itemsindice {
@@ -75,9 +81,12 @@ div.indice .itemsindice {
 h1.encabezadorecetario{
   height: 100px;
   font-size: 60px;
-  color: black;
+  color: white;
   font-family: new Tegomin;
-  background-color: rgb(181, 181, 179) ;
+  text-align: center;
+  background-color: rgb(181, 181, 179);
+  background-image: url(./images/cocina1.jpg);
+  margin-top: 0%;
 }
 
 div.receta {
