@@ -4,10 +4,13 @@ body{
   margin: 0px auto;
   width: 1200px;
   padding: 0px;
-  
-  
 }
-
+.global{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin: 0px auto;
+}
 .encabezado1 {
   background-color: black;
   height: 100px;
@@ -16,13 +19,7 @@ body{
   width: 100%;
 }
 
-.encabezado2 ul {
-  list-style: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  display: flex;
-  row-gap: 5px;
-}
+
 
 .ingresaryregistrar {
   color: white;
@@ -94,7 +91,7 @@ body{
   position: absolute;
   display: none;
   list-style:none;
-  width: 200px;
+  width: 100px;
   background-color: rgba(240, 234, 71, 0.832);
 }
 
@@ -103,7 +100,7 @@ body{
 }
 
 .ingredientes-barra li:hover{
-  background-color:rgb(164, 164, 164)
+  background-color:rgb(209, 209, 209)
 }
 
 .ingredientes-barra li {
@@ -119,7 +116,7 @@ body{
   position: absolute;
   display: none;
   list-style:none;
-  width: 200px;
+  width: 100px;
   background-color: rgba(240, 234, 71, 0.832);
 }
 
@@ -128,49 +125,50 @@ body{
 }
 
 .autores li:hover{
-  background-color:rgb(164, 164, 164)
+  background-color:rgb(164, 164, 164);
 }
 
 .autores li {
   display: block;
   color:rgb(0, 0, 0);
- font-size: 15px;
+  font-size: 15px;
   text-decoration:none;
   text-align: left;
   text-align: justify;
 }
 
-.backgroundimage{
+.backgroundimage2{
   background-image: url(./images/cocina1.jpg);
-  object-fit: cover;
+  background-size: cover;
   height: 400px;
   width: 100%;
   box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.849);  
 }
 
-h1.encabezadorecetario{
+.encabezadoRecetario{
+  width: 100%;
   height: 120px;
-  background-size: 1300px 500px;
-  font-size: 60px;
-  color: white;
-  font-family: "New Tegomin", serif;
-  text-align: center;
-  background-color: rgb(181, 181, 179);
+  background-size: cover;
   background-image: url(./images/tablon.jpeg);
   background-repeat: no-repeat;
-  margin: 0px auto;
-
-  box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.849);
-  text-shadow: rgb(46, 39, 30) 2px 2px 2px;
-  
+  box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.849); 
+}
+.textoRecetario{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-family: "New Tegomin", serif;
+  text-shadow: rgb(126, 119, 45) 2px 2px 2px;
 }
 
 .contenido{
   font-size: 13px;
   padding: 12px;
+  justify-content: flex-start;
+  box-sizing: border-box;
 }
 
-div.receta {
+.receta {
   font-size: 15px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -191,8 +189,8 @@ div.receta {
 .imagenes2 {
   
   position: relative;
-float: left;
-z-index: 5;
+  float: left;
+  z-index: 5;
   margin-top: -79%;
   width: 506px;
   height: 400px;
@@ -216,26 +214,11 @@ z-index: 5;
     
   }
 
-
-.margen1 {
-  margin-top: 0px;
-}
-
-.textoinicio {
-  color: black;
-  float: right;
-  margin-right: 90px;
-  margin-top: 35px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
 .imagenfondo2{
-  display: block;
   position: relative;
   left:30%;
   top: 30%;
-}
+}  
 
 .casita{
 position: relative;
@@ -243,53 +226,6 @@ justify-content: flex-end;
 background-color: yellow;
 }
 
-
-div.indice {
-  height: 400px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-image: url(./images/cocina1.jpg);
-}
-
-div.indice .itemsindice {
-  font-size: 250%;
-  font-family: "New Tegomin", serif;
-  list-style: none;
-  height: 15%;
-  width: 30%;
-  background-color: rgb(225, 225, 98);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  margin: 20px;
-  margin-bottom: 20px;
-}
-
-/* .tablon{
-  width: 1000px;
-  border: 3px solid rgb(239, 3, 3);
-  background-image: url(./images/tablon.jpeg);
-  background-size: cover;
-  margin: 0 auto;
-  padding: 0px;
-  background-repeat: no-repeat;
-  display:block;
-  box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.849);
-  
-} */
-.tablones {
-  width: 1200px;
-  height: 600px;
-  background-image: url(./images/tablon.jpeg);
-  background-size: cover;
-  margin: 0 auto;
-  padding: 0px;
-  background-repeat: no-repeat;
-  display:block;
-  box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.849);
-  z-index: -2;
-}
  .tablones2 {
   width: 1200px;
   height: 600px;
@@ -318,43 +254,85 @@ div.indice .itemsindice {
    margin-bottom: -4px;
    
 }
-/* .cuerdas{
-  position: absolute;
-  z-index: 10;
-  margin-top: -65px;
-  display: flex;
-  padding: 0px;
-  left: 2%;
-  float: left;
-} */
-
-@media  screen and (max-width:1200px) {
-.receta {
+.vacio {
   width: 100%;
+  opacity: 20%;
+  height: 50px;
 }
-
-.tituloReceta{
+.globoRecetas{
   width: 100%;
-}
-.casita{ 
-  width: 10%;
-}
-.imagenfondo2{
-   width: 50%;
-  }
+  height: auto;
   
-  .imagenlogo {
-    width: 20%;
-  }
-  .encabezado1{
-    width: 100%;
-  }
 }
 
-.pie{
-  background-color: black;
-  width: 100%;
-  height: 150px;
-  margin: 0 auto;
-  padding: 0px;
+
+@media  screen and (max-width:700px) {
+
+  .receta{
+    width: 100%;
+  } 
+  
+  .tituloReceta{
+    width: 80%;
+  }
+  .contenido{
+    width: 80%;
+    font-size: 9px;
+   } 
+  .imagenes2{
+    width: 80%;
+    height: auto;
+  } 
+  .casita{ 
+    width: 10%;
+  }
+  .imagenfondo2{
+     width: 50%;
+    }
+    .imagenlogo {
+      width: 50%;
+    }
+    .encabezado1{
+      width: 50%;
+    }
+  .tablones2 {
+    width: 40%;
+  }
+  .cuerditas2{
+    width: 50%;
+  }
+  .ingresaryregistrar{
+    width: 50%;
+  }
+  .imagenlogo{
+    width: 50%;
+  }
+  .barrainicio{
+    width: 50%;
+  }
+  .iniciohorizontal{
+    width: 50%;
+  }
+  .menu-vertical{
+    width: 50%;
+  }
+  .ingredientes-barra{
+    width: 50%;
+  }
+  .autores{
+    width: 50%;
+  }
+  .vacio{
+    width: 50%;
+  }
+  .imagenfondo2{
+    width: 50%;
+  }
+  .encabezadoRecetario{
+    width: 50%;
+  }
+  .backgroundimage2{
+    width: 50%;
+  }
+ 
 }
